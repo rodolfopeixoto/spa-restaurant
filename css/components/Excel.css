@@ -40,15 +40,3 @@
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
-.Logo {
-  background-image: url('images/react-logo.svg');
-  background-size: cover;
-  display: inline-block;
-  height: 50px;
-  vertical-align: middle;
-  width: 50px;
-}
-html {
-  background: white;
-  font: 16px Arial;
-}
