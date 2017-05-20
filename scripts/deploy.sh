@@ -1,18 +1,18 @@
-#limpa a última versão
-rf -rf __deployme
+# cleanup last version
+rm -rf __deployme
 mkdir __deployme
 
-#construção
-sh scripts/build.#!/bin/sh
+# build
+sh scripts/build.sh
 
-#minificação de js
+# minify js
 uglify -s bundle.js -o __deployme/bundle.js
-#minificação de CSS
+# minify css
 cssshrink bundle.css > __deployme/bundle.css
-
-#cópia de HTML e imagens
+# copy html and images
 cp index.html __deployme/index.html
 cp -r images/ __deployme/images/
 
-#pronto
+# done
 date; echo;
+

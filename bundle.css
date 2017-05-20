@@ -41,14 +41,14 @@
   text-decoration: none;
 }
 .Logo {
-  background-image: url('images/react-logo.svg');
+  background: purple url('images/whinepad-logo.png');
   background-size: cover;
   display: inline-block;
-  height: 50px;
+  height: 60px;
   vertical-align: middle;
-  width: 50px;
-}
-html {
+  width: 100px;
+}html {
   background: white;
   font: 16px Arial;
 }
+

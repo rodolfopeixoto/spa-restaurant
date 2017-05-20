@@ -119,19 +119,19 @@ var Excel = _react2.default.createClass({
       _react2.default.createElement(
         'button',
         { onClick: this._toggleSearch },
-        'Search'
+        'Buscar'
       ),
       _react2.default.createElement(
         'a',
         { onClick: this._download.bind(this, 'json'),
           href: 'data.json' },
-        'Export JSON'
+        'Exporta JSON'
       ),
       _react2.default.createElement(
         'a',
         { onClick: this._download.bind(this, 'csv'),
           href: 'data.csv' },
-        'Export CSV'
+        'Exporta CSV'
       )
     );
   },

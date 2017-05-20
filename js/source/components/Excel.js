@@ -121,11 +121,11 @@ var Excel = React.createClass({
   _renderToolbar: function() {
     return (
       <div className="toolbar">
-        <button onClick={this._toggleSearch}>Search</button>
+        <button onClick={this._toggleSearch}>Buscar</button>
         <a onClick={this._download.bind(this, 'json')}
-          href="data.json">Export JSON</a>
+          href="data.json">Exporta JSON</a>
         <a onClick={this._download.bind(this, 'csv')}
-          href="data.csv">Export CSV</a>
+          href="data.csv">Exporta CSV</a>
       </div>
     );
   },
